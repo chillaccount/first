@@ -147,7 +147,7 @@ const ValentineCard = () => {
       ) : (
         <div className="yes-card">
           <h2>As if I didn't know already, hehe &lt;3</h2>
-          <img src="Cute.gif" alt="Celebration GIF" className="gif" />
+          <img src="cute.gif" alt="Celebration GIF" className="gif" />
         </div>
       )}
       {/* Footer */}
