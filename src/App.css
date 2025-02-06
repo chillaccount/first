@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  color: #5e2a2a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.valentine-card {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.gif {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.yes-button {
+  background: #ff6f61;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.no-button {
+  position: fixed;
+  background: #ccc;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.music-icon {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  font-size: 2.5rem;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.music-icon:hover {
+  transform: scale(1.1);
+}
+
+.yes-card {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.yes-card h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+
+/* Existing styles... */
+
+/* Music Container */
+.music-container {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 2;
+}
+
+/* Thinkbox */
+.thinkbox {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 100px;
+  font-size: 0.7rem;
+  color: #5e2a2a;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 2s;
+  margin-left: 45px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Footer */
+footer {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1rem;
+  color: #5e2a2a;
+  z-index: 1;
+}
